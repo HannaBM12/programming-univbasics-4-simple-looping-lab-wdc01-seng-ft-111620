@@ -26,13 +26,13 @@ def output_array(array)
 end
 
 
-  def return_string_array(array)
-    new_array = []
-    count = 0
+def return_string_array(array)
+  new_array = []
+  count = 0
     while array[count] do
       string=array[count]
       new_array << "string"
       count += 1
     end
-    puts new_array
+  puts new_array
   end
