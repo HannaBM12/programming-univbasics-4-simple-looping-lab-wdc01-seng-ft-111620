@@ -34,5 +34,5 @@ def return_string_array(array)
       new_array << string
       count += 1
     end
-  puts new_array
+  p new_array
   end
